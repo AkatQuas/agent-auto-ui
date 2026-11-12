@@ -1,0 +1,48 @@
+{
+  "name": "agent-auto-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Compose atomic UI from Markdown agent-ui YAML fences — gallery, playground, and themed rich rendering.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkatQuas/agent-auto-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AkatQuas/agent-auto-ui/issues"
+  },
+  "homepage": "https://akatquas.github.io/agent-auto-ui/",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "agent",
+    "generative-ui",
+    "markdown",
+    "yaml",
+    "react",
+    "remark"
+  ],
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/mdast": "^4.0.4",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.0"
+  }
+}
